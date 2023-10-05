@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3Tabelas</title>
+    <style>
+        table,
+        tr,
+        td {
+            border: 1px solid;
+            border-collapse: collapse;
+            width: 100px;
+            height: 30px;
+            padding: 0px 10px 0px 10px;
+        }
+        .tabela3 {
+            width: 180px;
+            height: 30px;
+        }
+    </style>
+</head>
+
+<body>
+    <table>
+
+        <tr>
+            <td colspan="3"></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+    </table>
+    <br>
+    <table>
+        <tr>
+            <td rowspan="3"></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+        </tr>
+    </table>
+    <br>
+    <table class="tabela3">
+        <tr>
+            <td colspan="5"></td>
+        </tr>
+        <tr>
+            <td rowspan="4"></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td rowspan="2"></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td colspan="3"></td>
+            <td></td>
+        </tr>
+    </table>
+    
+</body>
+</html>
